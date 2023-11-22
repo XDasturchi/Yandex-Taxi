@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    top: 0;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: #ffe90d;
+    font-family: cursive;
+}
+
+h1 img {
+    height: 80px;
+    width: 50px;
+}
+
+.main {
+    margin-top: 100px;
+    margin-left: 410px;
+}
+
+button div {
+    display: flex;
+}
+
+button div h2 {
+    margin-top: 25px;
+}
+
+button div img {
+    height: 80px;
+    width: 50px;
+}
+
+button:hover {
+    border: 5px solid #63ff00;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+button {
+    cursor: pointer;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bold;
+    width: 200px;
+    font-family: cursive;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: yellow;
+}
+
+
+body {
+    background: #000000;
+}
+
+#employee {
+    margin-top: 150px;
+    margin-left: 415px;
+    position: absolute;
+    border-radius: 15px;
+    border: none;
+    display: none;
+    -webkit-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+}
+
+#myCar {
+    margin-top: 150px;
+    margin-left: 415px;
+    position: absolute;
+    border-radius: 15px;
+    border: none;
+    display: none;
+    -webkit-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+}
+
+
+#myEmployee {
+    margin-top: 150px;
+    margin-left: 415px;
+    position: absolute;
+    border-radius: 15px;
+    border: none;
+    display: none;
+    -webkit-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+}
+
+#car {
+    margin-top: 150px;
+    margin-left: 355px;
+    position: absolute;
+    border-radius: 15px;
+    border: none;
+    display: none;
+    -webkit-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+}
+
+#carHistory {
+    margin-top: 150px;
+    margin-left: 415px;
+    position: absolute;
+    border-radius: 15px;
+    border: none;
+    display: none;
+    -webkit-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 10px 100px -3px rgba(34, 60, 80, 0.2);
+}

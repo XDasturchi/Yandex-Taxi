@@ -1,0 +1,134 @@
+body {
+    background-color: #d1a706;
+    padding: 15px;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+h2 {
+    margin-top: -12px;
+    position: absolute;
+    margin-left: 710px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+}
+
+.createCar {
+    text-align: center;
+}
+
+.createCar input {
+    border: 2px solid black;
+    background-color: #03dbb0;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+.createCar input::placeholder {
+    color: #000000;
+}
+
+.createCar select {
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #03dbb0;
+}
+
+.createCar option {
+    font-weight: bold;
+}
+
+.createCar button {
+    font-weight: bold;
+    padding: 5px;
+    background-color: lime;
+    border-radius: 10px;
+}
+
+
+table {
+    margin-top: 30px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+    color: #230063;
+    border: 1px solid #230063;
+}
+
+table button {
+    display: inline-flex;
+}
+
+#delete {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #ff0000;
+    border-radius: 10px;
+}
+
+#update {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #0abe8b;
+    border-radius: 10px;
+}
+
+#history {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #2055b5;
+    border-radius: 10px;
+}
+
+.createCarHistory {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.createCarHistory button {
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #0df211;
+}
+
+.createCarHistory select {
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #03dbb0;
+}
+
+.createCarHistory input {
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #49bf42;
+}

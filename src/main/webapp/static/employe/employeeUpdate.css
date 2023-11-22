@@ -1,0 +1,49 @@
+body {
+    background-color: #ffe1aa;
+    text-align: center;
+    padding: 10px;
+}
+
+.updateTable {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    margin-top: 25px;
+    width: 250px;
+}
+
+.updateTable input {
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #00eed7;
+    margin-top: 25px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.updateTable input::placeholder {
+    color: black;
+}
+
+.updateTable button {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #3be901;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+h2 {
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 630px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+}

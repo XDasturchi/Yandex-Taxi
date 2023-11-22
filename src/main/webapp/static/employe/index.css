@@ -1,0 +1,83 @@
+body {
+    background: greenyellow;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.createEmployee input {
+    background-color: #000000;
+    border-radius: 25px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.createEmployee {
+    margin-top: 20px;
+}
+
+.createEmployee input::placeholder {
+    color: white;
+}
+
+.createEmployee button {
+    cursor: pointer;
+    background-color: #00acb9;
+    border-radius: 25px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+table {
+    margin-top: 25px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: center;
+    color: #ab19d0;
+    border: 1px solid #2048c9;
+}
+
+.update {
+    cursor: pointer;
+    background-color: #1ad0dc;
+    border-radius: 25px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+
+.delete {
+    cursor: pointer;
+    background-color: #ff0000;
+    border-radius: 25px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.action {
+    text-align: center;
+    display: flex;
+}
+
+h2 {
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 630px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+}
